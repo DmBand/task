@@ -2,7 +2,7 @@
 ```Python 3.11``` ```Aiogram``` ```Redis```
 
 ## Description
-The bot collects information about new negative reviews every 20 minutes (the time can be changed in the bot settings).
+The bot collects information about new negative reviews every 120 minutes (the time can be changed in the bot settings).
 Data about the SKU number of products to be parsed is stored in a database (Redis). If you want to add or remove data for parsing, use the bot menu.
 
 ## Pre installation
