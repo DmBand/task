@@ -12,8 +12,12 @@ from src.utils.task import schedule_task
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
-    filename='logs.log'
+    # filename='logs.log'
 )
+
+
+async def on_startup():
+    await schedule_task()
 
 
 async def main():
@@ -26,6 +30,7 @@ async def main():
 
     try:
         await dp.skip_updates()
+        await on_startup()
         await dp.start_polling()
     finally:
         await dp.storage.close()
