@@ -20,7 +20,7 @@ cp .env.example .env
 ```
 ### 4. Get a telegram bot token from https://t.me/BotFather
 ### 5. Create a group in telegram. Add your bot there and give it administrator rights
-### 6. Get the chat ID by sending the "/id" command to the your new chat
+### 6. Get the chat ID by sending the "/id" command to your new chat
 ### 7. Specify in the .env-file your bot-token and your chat ID for sending messages
 ### 8. Simple start
 ```bash
