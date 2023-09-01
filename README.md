@@ -26,4 +26,7 @@ cp .env.example .env
 ```bash
 python3 bot.py
 ```
-
+### MESSAGE EXAMPLE
+![example](media/example.png)
+### HOW TO GET CHAT ID
+![example](media/example2.png)
