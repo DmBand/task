@@ -1,7 +1,7 @@
 from aiogram import types
 
 
-class _Keyboard:
+class Keyboard:
     def main_menu(self) -> types.ReplyKeyboardMarkup:
         """ Main menu keyboard """
         keypad = self.__base_keypad()
@@ -25,4 +25,4 @@ class _Keyboard:
         return keypad
 
 
-keyboard = _Keyboard()
+keyboard = Keyboard()
